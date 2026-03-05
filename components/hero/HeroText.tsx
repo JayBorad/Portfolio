@@ -218,9 +218,9 @@ export default function HeroText() {
         }}
       >
         {[
-          { value: "50+", label: "Projects" },
-          { value: "8+", label: "Years Exp" },
-          { value: "30+", label: "Clients" },
+          { value: "20+", label: "Projects" },
+          { value: "3+", label: "Years Exp" },
+          { value: "5+", label: "Clients" },
         ].map((stat) => (
           <div key={stat.label} style={{ textAlign: "center" }}>
             <div
