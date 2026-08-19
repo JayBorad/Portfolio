@@ -6,25 +6,25 @@ import SectionHeader from '../shared/SectionHeader';
 import SkillBars from './SkillBars';
 
 const stats = [
-  { value: 50, suffix: '+', label: 'Projects Shipped' },
-  { value: 8, suffix: '+', label: 'Years Experience' },
-  { value: 30, suffix: '+', label: 'Happy Clients' },
-  { value: 15, suffix: 'k+', label: 'GitHub Stars' },
+  { value: 20, suffix: '+', label: 'Projects Delivered' },
+  { value: 3, suffix: '+', label: 'Years Experience' },
+  { value: 5, suffix: '+', label: 'Happy Clients' },
+  { value: 25, suffix: '+', label: 'Production Deployments' },
 ];
 
 const techIcons = [
   { name: 'React', color: '#00d4ff' },
   { name: 'Next.js', color: '#e8f0fe' },
   { name: 'TypeScript', color: '#3b82f6' },
-  { name: 'Three.js', color: '#00a8ff' },
-  { name: 'Node.js', color: '#4ade80' },
-  { name: 'Python', color: '#facc15' },
-  { name: 'PostgreSQL', color: '#60a5fa' },
-  { name: 'Docker', color: '#00d4ff' },
-  { name: 'AWS', color: '#fb923c' },
-  { name: 'Go', color: '#00e5ff' },
-  { name: 'GraphQL', color: '#e879f9' },
-  { name: 'Figma', color: '#f472b6' },
+  { name: 'JavaScript', color: '#facc15' },
+  { name: 'Tailwind CSS', color: '#22d3ee' },
+  { name: 'Supabase', color: '#4ade80' },
+  { name: 'Express.js', color: '#93c5fd' },
+  { name: 'MongoDB', color: '#34d399' },
+  { name: 'MySQL', color: '#60a5fa' },
+  { name: 'REST APIs', color: '#fb923c' },
+  { name: 'Git', color: '#f87171' },
+  { name: 'Google Cloud', color: '#a78bfa' },
 ];
 
 function StatCard({ stat, delay }: { stat: typeof stats[0]; delay: number }) {
@@ -233,12 +233,10 @@ export default function AboutSection() {
                 lineHeight: 1.75,
                 color: 'rgba(136, 153, 179, 0.85)',
               }}>
-                From architecting microservices to building real-time 3D experiences,
-                I bring a holistic approach to software development. My work has been
-                featured in{' '}
-                <span style={{ color: '#00a8ff' }}>Awwwards</span>,{' '}
-                <span style={{ color: '#00e5ff' }}>CSS Design Awards</span>, and
-                recognized by the global developer community.
+                I focus on building reliable web products that are fast, scalable,
+                and easy to maintain. From clean frontend experiences in React and
+                Next.js to backend APIs and database workflows, I care about writing
+                practical code that solves real business problems.
               </p>
             </motion.div>
           </motion.div>

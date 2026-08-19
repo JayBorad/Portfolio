@@ -4,12 +4,12 @@ import { useRef, useState, useEffect } from 'react';
 import { motion, useInView } from 'framer-motion';
 
 const skills = [
-  { name: 'React / Next.js', level: 96, color: '#00a8ff' },
-  { name: 'TypeScript', level: 93, color: '#00cfff' },
-  { name: 'Three.js / WebGL', level: 87, color: '#00e5ff' },
-  { name: 'Node.js / Go', level: 89, color: '#60a5fa' },
-  { name: 'AWS / DevOps', level: 82, color: '#a855f7' },
-  { name: 'UI/UX Design', level: 85, color: '#c084fc' },
+  { name: 'React / Next.js', level: 94, color: '#00a8ff' },
+  { name: 'TypeScript / JavaScript', level: 91, color: '#00cfff' },
+  { name: 'Tailwind CSS', level: 89, color: '#00e5ff' },
+  { name: 'Supabase / API Integration', level: 86, color: '#60a5fa' },
+  { name: 'Express.js', level: 84, color: '#a855f7' },
+  { name: 'MongoDB / MySQL', level: 82, color: '#c084fc' },
 ];
 
 function SkillBar({ skill, delay }: { skill: typeof skills[0]; delay: number }) {
